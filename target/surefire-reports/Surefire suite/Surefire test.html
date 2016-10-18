@@ -1,0 +1,229 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>30/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Oct 19 01:09:14 CEST 2016</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (123 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='se.nackademin.examination.examination_jacoco.DataAnalysisTest.test1()'><b>test1</b><br>Test class: se.nackademin.examination.examination_jacoco.DataAnalysisTest</td>
+<td></td>
+<td>0</td>
+<td>test1(se.nackademin.examination.examination_jacoco.DataAnalysisTest)</td></tr>
+<tr>
+<td title='se.nackademin.examination.examination_jacoco.DataAnalysisTest.test2()'><b>test2</b><br>Test class: se.nackademin.examination.examination_jacoco.DataAnalysisTest</td>
+<td></td>
+<td>0</td>
+<td>test2(se.nackademin.examination.examination_jacoco.DataAnalysisTest)</td></tr>
+<tr>
+<td title='se.nackademin.examination.examination_jacoco.DataAnalysisTest.test3()'><b>test3</b><br>Test class: se.nackademin.examination.examination_jacoco.DataAnalysisTest</td>
+<td></td>
+<td>0</td>
+<td>test3(se.nackademin.examination.examination_jacoco.DataAnalysisTest)</td></tr>
+<tr>
+<td title='se.nackademin.examination.examination_jacoco.DataAnalysisTest.test4()'><b>test4</b><br>Test class: se.nackademin.examination.examination_jacoco.DataAnalysisTest</td>
+<td></td>
+<td>0</td>
+<td>test4(se.nackademin.examination.examination_jacoco.DataAnalysisTest)</td></tr>
+<tr>
+<td title='se.nackademin.examination.examination_jacoco.DataAnalysisTest.test5()'><b>test5</b><br>Test class: se.nackademin.examination.examination_jacoco.DataAnalysisTest</td>
+<td></td>
+<td>0</td>
+<td>test5(se.nackademin.examination.examination_jacoco.DataAnalysisTest)</td></tr>
+<tr>
+<td title='se.nackademin.examination.examination_jacoco.DataAnalysisTest.test6()'><b>test6</b><br>Test class: se.nackademin.examination.examination_jacoco.DataAnalysisTest</td>
+<td></td>
+<td>0</td>
+<td>test6(se.nackademin.examination.examination_jacoco.DataAnalysisTest)</td></tr>
+<tr>
+<td title='se.nackademin.examination.examination_jacoco.ResultsFromInputsTest.testAgeGettersAndSettersMethods()'><b>testAgeGettersAndSettersMethods</b><br>Test class: se.nackademin.examination.examination_jacoco.ResultsFromInputsTest</td>
+<td></td>
+<td>0</td>
+<td>testAgeGettersAndSettersMethods(se.nackademin.examination.examination_jacoco.ResultsFromInputsTest)</td></tr>
+<tr>
+<td title='se.nackademin.examination.examination_jacoco.ConversorTest.testConversor()'><b>testConversor</b><br>Test class: se.nackademin.examination.examination_jacoco.ConversorTest</td>
+<td></td>
+<td>0</td>
+<td>testConversor(se.nackademin.examination.examination_jacoco.ConversorTest)</td></tr>
+<tr>
+<td title='se.nackademin.examination.examination_jacoco.ResultsFromInputsTest.testGenderGettersAndSettersMethods()'><b>testGenderGettersAndSettersMethods</b><br>Test class: se.nackademin.examination.examination_jacoco.ResultsFromInputsTest</td>
+<td></td>
+<td>0</td>
+<td>testGenderGettersAndSettersMethods(se.nackademin.examination.examination_jacoco.ResultsFromInputsTest)</td></tr>
+<tr>
+<td title='se.nackademin.examination.examination_jacoco.ConversorTest.testGetGenderConverterArray()'><b>testGetGenderConverterArray</b><br>Test class: se.nackademin.examination.examination_jacoco.ConversorTest</td>
+<td></td>
+<td>0</td>
+<td>testGetGenderConverterArray(se.nackademin.examination.examination_jacoco.ConversorTest)</td></tr>
+<tr>
+<td title='se.nackademin.examination.examination_jacoco.ResultsFromInputsTest.testHomeCityGettersAndSettersMethods()'><b>testHomeCityGettersAndSettersMethods</b><br>Test class: se.nackademin.examination.examination_jacoco.ResultsFromInputsTest</td>
+<td></td>
+<td>0</td>
+<td>testHomeCityGettersAndSettersMethods(se.nackademin.examination.examination_jacoco.ResultsFromInputsTest)</td></tr>
+<tr>
+<td title='se.nackademin.examination.examination_jacoco.MainTest.testMainMethod()'><b>testMainMethod</b><br>Test class: se.nackademin.examination.examination_jacoco.MainTest</td>
+<td></td>
+<td>0</td>
+<td>testMainMethod(se.nackademin.examination.examination_jacoco.MainTest)</td></tr>
+<tr>
+<td title='se.nackademin.examination.examination_jacoco.GameTest.testMethod1()'><b>testMethod1</b><br>Test class: se.nackademin.examination.examination_jacoco.GameTest</td>
+<td></td>
+<td>0</td>
+<td>testMethod1(se.nackademin.examination.examination_jacoco.GameTest)</td></tr>
+<tr>
+<td title='se.nackademin.examination.examination_jacoco.GameTest.testMethodRun()'><b>testMethodRun</b><br>Test class: se.nackademin.examination.examination_jacoco.GameTest</td>
+<td></td>
+<td>0</td>
+<td>testMethodRun(se.nackademin.examination.examination_jacoco.GameTest)</td></tr>
+<tr>
+<td title='se.nackademin.examination.examination_jacoco.GameTest.testMethodRun10()'><b>testMethodRun10</b><br>Test class: se.nackademin.examination.examination_jacoco.GameTest</td>
+<td></td>
+<td>0</td>
+<td>testMethodRun10(se.nackademin.examination.examination_jacoco.GameTest)</td></tr>
+<tr>
+<td title='se.nackademin.examination.examination_jacoco.GameTest.testMethodRun11()'><b>testMethodRun11</b><br>Test class: se.nackademin.examination.examination_jacoco.GameTest</td>
+<td></td>
+<td>0</td>
+<td>testMethodRun11(se.nackademin.examination.examination_jacoco.GameTest)</td></tr>
+<tr>
+<td title='se.nackademin.examination.examination_jacoco.GameTest.testMethodRun12()'><b>testMethodRun12</b><br>Test class: se.nackademin.examination.examination_jacoco.GameTest</td>
+<td></td>
+<td>0</td>
+<td>testMethodRun12(se.nackademin.examination.examination_jacoco.GameTest)</td></tr>
+<tr>
+<td title='se.nackademin.examination.examination_jacoco.GameTest.testMethodRun2()'><b>testMethodRun2</b><br>Test class: se.nackademin.examination.examination_jacoco.GameTest</td>
+<td></td>
+<td>0</td>
+<td>testMethodRun2(se.nackademin.examination.examination_jacoco.GameTest)</td></tr>
+<tr>
+<td title='se.nackademin.examination.examination_jacoco.GameTest.testMethodRun3()'><b>testMethodRun3</b><br>Test class: se.nackademin.examination.examination_jacoco.GameTest</td>
+<td></td>
+<td>0</td>
+<td>testMethodRun3(se.nackademin.examination.examination_jacoco.GameTest)</td></tr>
+<tr>
+<td title='se.nackademin.examination.examination_jacoco.GameTest.testMethodRun4()'><b>testMethodRun4</b><br>Test class: se.nackademin.examination.examination_jacoco.GameTest</td>
+<td></td>
+<td>0</td>
+<td>testMethodRun4(se.nackademin.examination.examination_jacoco.GameTest)</td></tr>
+<tr>
+<td title='se.nackademin.examination.examination_jacoco.GameTest.testMethodRun5()'><b>testMethodRun5</b><br>Test class: se.nackademin.examination.examination_jacoco.GameTest</td>
+<td></td>
+<td>0</td>
+<td>testMethodRun5(se.nackademin.examination.examination_jacoco.GameTest)</td></tr>
+<tr>
+<td title='se.nackademin.examination.examination_jacoco.GameTest.testMethodRun6()'><b>testMethodRun6</b><br>Test class: se.nackademin.examination.examination_jacoco.GameTest</td>
+<td></td>
+<td>0</td>
+<td>testMethodRun6(se.nackademin.examination.examination_jacoco.GameTest)</td></tr>
+<tr>
+<td title='se.nackademin.examination.examination_jacoco.GameTest.testMethodRun7()'><b>testMethodRun7</b><br>Test class: se.nackademin.examination.examination_jacoco.GameTest</td>
+<td></td>
+<td>0</td>
+<td>testMethodRun7(se.nackademin.examination.examination_jacoco.GameTest)</td></tr>
+<tr>
+<td title='se.nackademin.examination.examination_jacoco.GameTest.testMethodRun8()'><b>testMethodRun8</b><br>Test class: se.nackademin.examination.examination_jacoco.GameTest</td>
+<td></td>
+<td>0</td>
+<td>testMethodRun8(se.nackademin.examination.examination_jacoco.GameTest)</td></tr>
+<tr>
+<td title='se.nackademin.examination.examination_jacoco.GameTest.testMethodRun9()'><b>testMethodRun9</b><br>Test class: se.nackademin.examination.examination_jacoco.GameTest</td>
+<td></td>
+<td>0</td>
+<td>testMethodRun9(se.nackademin.examination.examination_jacoco.GameTest)</td></tr>
+<tr>
+<td title='se.nackademin.examination.examination_jacoco.ResultsFromInputsTest.testNameLenghtGettersAndSettersMethods()'><b>testNameLenghtGettersAndSettersMethods</b><br>Test class: se.nackademin.examination.examination_jacoco.ResultsFromInputsTest</td>
+<td></td>
+<td>0</td>
+<td>testNameLenghtGettersAndSettersMethods(se.nackademin.examination.examination_jacoco.ResultsFromInputsTest)</td></tr>
+<tr>
+<td title='se.nackademin.examination.examination_jacoco.ConversorTest.testSetAgeConverterArrayValues()'><b>testSetAgeConverterArrayValues</b><br>Test class: se.nackademin.examination.examination_jacoco.ConversorTest</td>
+<td></td>
+<td>0</td>
+<td>testSetAgeConverterArrayValues(se.nackademin.examination.examination_jacoco.ConversorTest)</td></tr>
+<tr>
+<td title='se.nackademin.examination.examination_jacoco.ConversorTest.testSetCityConverterArrayValues()'><b>testSetCityConverterArrayValues</b><br>Test class: se.nackademin.examination.examination_jacoco.ConversorTest</td>
+<td></td>
+<td>0</td>
+<td>testSetCityConverterArrayValues(se.nackademin.examination.examination_jacoco.ConversorTest)</td></tr>
+<tr>
+<td title='se.nackademin.examination.examination_jacoco.ConversorTest.testSetGenderConverterArrayValue()'><b>testSetGenderConverterArrayValue</b><br>Test class: se.nackademin.examination.examination_jacoco.ConversorTest</td>
+<td></td>
+<td>0</td>
+<td>testSetGenderConverterArrayValue(se.nackademin.examination.examination_jacoco.ConversorTest)</td></tr>
+<tr>
+<td title='se.nackademin.examination.examination_jacoco.ConversorTest.testgetAgeConverterArray()'><b>testgetAgeConverterArray</b><br>Test class: se.nackademin.examination.examination_jacoco.ConversorTest</td>
+<td></td>
+<td>0</td>
+<td>testgetAgeConverterArray(se.nackademin.examination.examination_jacoco.ConversorTest)</td></tr>
+</table><p>
+</body>
+</html>
